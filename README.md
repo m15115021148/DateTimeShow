@@ -2,8 +2,10 @@
 这是一个日期跟时间的显示控件
 显示的格式yyyy-mm-dd-hh-mm
 布局如下：
-  <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  
+  
+    <?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="vertical"
@@ -80,4 +82,4 @@
 
     </LinearLayout>
 
-</LinearLayout>
+    </LinearLayout>
