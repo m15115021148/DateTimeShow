@@ -1,6 +1,8 @@
 # DateTimeShow
 这是一个日期跟时间的显示控件
 显示的格式yyyy-mm-dd-hh-mm
+![image](https://github.com/m15115021148/DateTimeShow/blob/master/img/img1.jpeg)
+
 布局如下：
   
   
