@@ -47,7 +47,7 @@ import java.util.List;
 /**
  * Numeric wheel view.
  * 
- * @author  chenemng
+ * @author
  */
 public class WheelTimeView extends View {
 	/** Scrolling duration */

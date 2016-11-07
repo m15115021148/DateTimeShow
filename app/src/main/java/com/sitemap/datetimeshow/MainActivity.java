@@ -1,10 +1,13 @@
 package com.sitemap.datetimeshow;
 
 import android.app.Dialog;
+import android.graphics.drawable.BitmapDrawable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
@@ -56,8 +59,8 @@ public class MainActivity extends AppCompatActivity {
         final List<String> list_big = Arrays.asList(months_big);
         final List<String> list_little = Arrays.asList(months_little);
 
-        dialog = new Dialog(this);
-        //去点标题
+        dialog = new Dialog(this,R.style.dailogStyle);
+        //去掉标题
         dialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
         // 找到dialog的布局文件
         View view = getLayoutInflater().inflate(R.layout.time_layout, null);
